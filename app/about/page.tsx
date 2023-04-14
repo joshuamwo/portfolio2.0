@@ -4,6 +4,7 @@ import {
   YoutubeIcon,
   ArrowIcon,
   TwitterIcon,
+  LinkedInIcon,
 } from "components/icons";
 
 export const metadata: Metadata = {
@@ -16,7 +17,8 @@ export default function AboutPage() {
     <section>
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hi, I'm Josh. I also go by <b>mwo.rld</b> | <b>yulluone</b> | <b>joshuamwo</b>.
+        Hi, I'm Josh. I also go by <b>mwo.rld</b> | <b>yulluone</b> |{" "}
+        <b>joshuamwo</b>.
       </p>
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
         <p>
@@ -82,12 +84,12 @@ export default function AboutPage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.youtube.com/@leerob"
+            href="https://www.linkedin.com/in/joshua-yullu-068042192/"
             className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
           >
             <div className="flex items-center">
-              <YoutubeIcon />
-              <div className="ml-3">YouTube</div>
+              <LinkedInIcon />
+              <div className="ml-3">LinkedIn</div>
             </div>
             <ArrowIcon />
           </a>
