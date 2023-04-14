@@ -1,18 +1,19 @@
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import { allBlogs } from 'contentlayer/generated';
-import ViewCounter from './view-counter';
+import type { Metadata } from "next";
+import Link from "next/link";
+import { allBlogs } from "contentlayer/generated";
+import ViewCounter from "./view-counter";
 
 export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'Read my thoughts on software development, design, and more.',
+  title: "Blog",
+  description: "Read my thoughts on software development, design, and more.",
 };
 
 export default async function BlogPage() {
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif mb-5">Blog</h1>
-      {allBlogs
+      <p>Coming Soon 😎</p>
+      {/* {allBlogs
         .sort((a, b) => {
           if (new Date(a.publishedAt) > new Date(b.publishedAt)) {
             return -1;
@@ -30,7 +31,7 @@ export default async function BlogPage() {
               <ViewCounter slug={post.slug} trackView={false} />
             </div>
           </Link>
-        ))}
+        ))} */}
     </section>
   );
 }
