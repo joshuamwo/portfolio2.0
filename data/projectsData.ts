@@ -8,7 +8,7 @@ const projectsData: any = [
   {
     title: "Supabase + Nextjs AuthUi",
     description: `An authentication starter for Nextjs with Supabase. Easy to use and customize. See my github repo for more details.`,
-    imgSrc: "/images/authui.ppg",
+    imgSrc: "/images/authui.png",
     href: "https://yullu.me/work/supabase-authui",
   },
 ];
