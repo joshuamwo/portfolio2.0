@@ -1,18 +1,23 @@
-import me from '../app/placeholder.jpg';
+import me from "../app/me2.jpg";
 
-export const name = 'Your Name';
+export const name = "Joshua Yullu";
 export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm a developer who loves Next.js. I work at BigCo or CoolStartup as a Software Engineer.
+      Hey, I'm a developer with an ambition to know and acquire more skills in
+      the tech world so I can offer solutions to the growing demands of the
+      technology world. I love to collaborate so hit me up at any of my socials.
+      I strongly believe that when people come together, they can achieve
+      anything.
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      When I'm not coding, I'm probably playing video games or watching anime. I also love to travel and explore new places.
+      When I'm not coding, I'm probably playing reading comics or watching
+      anime. I also love to travel and explore new places.
     </>
   );
 };
