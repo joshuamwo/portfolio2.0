@@ -49,7 +49,7 @@ export default async function HomePage() {
           >
             <TwitterIcon />
             {/* {`${tweetCount.toLocaleString()} tweets all time`} */}
-            tweets all time
+            Yulluone
           </a>
           <a
             rel="noopener noreferrer"
@@ -59,10 +59,15 @@ export default async function HomePage() {
           >
             <GitHubIcon />
             {/* {`${starCount.toLocaleString()} stars on this repo`} */}
+            Joshuamwo
           </a>
-          <Link href="/blog" className="flex items-center">
+          <Link
+            href="https://thesafehouse.vercel.app/"
+            className="flex items-center"
+          >
             <ViewsIcon />
             {/* {`${views.toLocaleString()} blog views all time`} */}
+            The Safe House
           </Link>
         </div>
       </div>
