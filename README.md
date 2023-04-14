@@ -1,6 +1,6 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fleerob.io)
 
-# leerob.io
+# yullu.me
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [PlanetScale](https://planetscale.com)
@@ -32,8 +32,8 @@ pnpm run setup # Remove all of my personal information
 pnpm dev
 ```
 
-Create a `.env` file similar to [`.env.example`](https://github.com/leerob/leerob.io/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/joshuamwo/portfolio2.0/.env.example).
 
 ## Cloning / Forking
 
-Please review the [license](https://github.com/leerob/leerob.io/blob/main/LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.) by running `pnpm run setup`.
+Please review the [license](https://github.com/joshuamwo/portfolio2.0/main/LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.) by running `pnpm run setup`.
