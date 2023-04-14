@@ -50,8 +50,9 @@ export default async function GuestbookPage() {
 
   return (
     <section>
-      <h1 className="font-bold text-3xl font-serif mb-5">Guestbook</h1>
-      {session?.user ? (
+				<h1 className="font-bold text-3xl font-serif mb-5">Sign My Guestbook</h1>
+				<p>Coming Soon</p>
+      {/* {session?.user ? (
         <>
           <Form />
           <SignOut />
@@ -68,7 +69,7 @@ export default async function GuestbookPage() {
             {entry.body}
           </div>
         </div>
-      ))}
+      ))} */}
     </section>
   );
 }
