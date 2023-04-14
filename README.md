@@ -1,4 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fleerob.io)
+[![Deploy with Vercel](https://vercel.com/button)]
 
 # yullu.me
 
@@ -25,8 +25,8 @@ You can learn more about the `app/` directory [here](https://beta.nextjs.org/doc
 This application requires Node.js v16.13+.
 
 ```bash
-git clone https://github.com/leerob/leerob.io.git
-cd leerob.io
+git clone https://github.com/leerob/portfolio2.0.git
+cd portfolio2.0
 pnpm install
 pnpm run setup # Remove all of my personal information
 pnpm dev
