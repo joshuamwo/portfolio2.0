@@ -5,16 +5,16 @@ import { getServerSession } from "next-auth/next";
 import { authOptions } from "pages/api/auth/[...nextauth]";
 import Form from "./form";
 
-async function getGuestbook() {
-  const data = await queryBuilder
-    .selectFrom("guestbook")
-    .select(["id", "body", "created_by", "updated_at"])
-    .orderBy("updated_at", "desc")
-    .limit(100)
-    .execute();
+// async function getGuestbook() {
+//   const data = await queryBuilder
+//     .selectFrom("guestbook")
+//     .select(["id", "body", "created_by", "updated_at"])
+//     .orderBy("updated_at", "desc")
+//     .limit(100)
+//     .execute();
 
-  return data;
-}
+//   return data;
+// }
 
 export const metadata: Metadata = {
   title: "Guestbook",
@@ -27,26 +27,26 @@ export default async function GuestbookPage() {
   let entries;
   let session;
 
-  try {
-    const [guestbookRes, sessionRes] = await Promise.allSettled([
-      getGuestbook(),
-      getServerSession(authOptions),
-    ]);
+  // try {
+  //   const [guestbookRes, sessionRes] = await Promise.allSettled([
+  //     getGuestbook(),
+  //     getServerSession(authOptions),
+  //   ]);
 
-    if (guestbookRes.status === "fulfilled" && guestbookRes.value[0]) {
-      entries = guestbookRes.value;
-    } else {
-      console.error(guestbookRes);
-    }
+  //   if (guestbookRes.status === "fulfilled" && guestbookRes.value[0]) {
+  //     entries = guestbookRes.value;
+  //   } else {
+  //     console.error(guestbookRes);
+  //   }
 
-    if (sessionRes.status === "fulfilled") {
-      session = sessionRes.value;
-    } else {
-      console.error(sessionRes);
-    }
-  } catch (error) {
-    console.error(error);
-  }
+  //   if (sessionRes.status === "fulfilled") {
+  //     session = sessionRes.value;
+  //   } else {
+  //     console.error(sessionRes);
+  //   }
+  // } catch (error) {
+  //   console.error(error);
+  // }
 
   return (
     <section>
