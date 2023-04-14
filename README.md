@@ -11,8 +11,8 @@
 
 ## TODO
 
-In early 2023, I refactored my site to use the new `app/` directory in Next.js 13. I went ahead and shipped it, but there are still a few things I want to do:
-
+- [ ] guestbook page coming soon
+- [ ] blog page coming soon
 - [ ] Global `404` page coming soon
 - [ ] Move redirects to end of routing stack (not in `next.config.js`)
 - [ ] Use new support for API routes in `app` (not ready yet)
@@ -36,4 +36,4 @@ Create a `.env` file similar to [`.env.example`](https://github.com/joshuamwo/po
 
 ## Cloning / Forking
 
-Please review the [license](https://github.com/joshuamwo/portfolio2.0/main/LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.) by running `pnpm run setup`.
+Please review the [license](https://github.com/joshuamwo/portfolio2.0/blob/master/LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.) by running `pnpm run setup`.
