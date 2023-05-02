@@ -5,9 +5,11 @@ export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm a developer who loves to collaborate so don't hesitate to hit me
-      up at any of my socials. I strongly believe that when people come
-      together, they can achieve anything.
+      FullStack & DevOps Engineer || React | Vue | Node | Express | Next | Nuxt
+      | GraphQl | Git | Docker | WordPress || TypeScript | JavaScript (ES6) |
+      Dart | Python | Rust | C++ | HTML5 | CSS || Databases' Design |
+      [SQL|NOSQL] | MongoDB | PostgreSQL | MySQL | Firebase | Supabase | AWS |
+      GCP | Heroku | Vercel | Netlify ||
     </>
   );
 };
