@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     default: "Joshua Yullu",
     template: "%s | Joshua Yullu",
   },
-  description: "Developer, writer, and creator.",
+  description: "Developer, Visionary, and Innovator.",
   openGraph: {
     title: "Joshua Yullu",
-    description: "Developer, writer, and creator.",
+    description: "Developer, Visionary, and Innovator.",
     url: "https://yullu.me",
     siteName: "Joshua Yullu",
     images: [
