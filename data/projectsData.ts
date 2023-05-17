@@ -3,7 +3,7 @@ const projectsData: any = [
     title: "Dev Portfolio Starter",
     description: `A stunning starter template for a Dev/Designer Portfolio.`,
     imgSrc: "/images/portfolio-starter.png",
-    href: "https://yullu.me/work/dev-potfolio-starter",
+    href: "https://dev-portfolio-starter.vercel.app/",
   },
 {
     title: "WeDance",
@@ -29,13 +29,13 @@ const projectsData: any = [
     title: "Netflix UI Rebuild",
     description: `I rebuilt the neflix UI.`,
     imgSrc: "/images/netflix-rebuild.png",
-    href: "https://yullu.me/work/netflix-rebuild",
+    href: "https://netflix-clone-743e0.web.app/",
   },
 {
     title: "AirBnB Rebuild",
     description: `AirBnB UI re-imagined`,
     imgSrc: "/images/airbnb-rebuild.png",
-    href: "https://yullu.me/work/airbnb-rebuild",
+    href: "https://air-bnb-clone-4b0bd.web.app/",
   },
 ];
 
