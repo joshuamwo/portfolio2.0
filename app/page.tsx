@@ -84,7 +84,7 @@ export default async function HomePage() {
             href="mailto:muuoyullu@gmail.com"
           >
             <ArrowIcon />
-            Send Me an Email
+            Email: muuoyullu@gmail.com
           </a>
         </li>
         {/* <li>
