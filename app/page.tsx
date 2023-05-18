@@ -6,6 +6,7 @@ import {
   GitHubIcon,
   TwitterIcon,
   ViewsIcon,
+  PhoneIcon,
 } from "components/icons";
 import { name, about, bio, avatar } from "lib/info";
 
@@ -27,9 +28,9 @@ export default async function HomePage() {
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif">{name}</h1>
-      <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
+      <div className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
         {about()}
-      </p>
+      </div>
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
         <Image
           alt={name}
@@ -45,7 +46,7 @@ export default async function HomePage() {
             rel="noopener noreferrer"
             target="_blank"
             href="https://twitter.com/yulluone"
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 hover:text-black dark:hover:text-white	transition-all"
           >
             <TwitterIcon />
             {/* {`${tweetCount.toLocaleString()} tweets all time`} */}
@@ -55,35 +56,35 @@ export default async function HomePage() {
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/joshuamwo"
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 hover:text-black dark:hover:text-white	transition-all"
           >
             <GitHubIcon />
             {/* {`${starCount.toLocaleString()} stars on this repo`} */}
             Joshuamwo
           </a>
-          <Link
-            href="https://thesafehouse.vercel.app/"
-            className="flex items-center"
+          <a
+            href="tel:+254742092240"
+            className="flex items-center gap-2 hover:text-black dark:hover:text-white	transition-all"
           >
-            <ViewsIcon />
+            <PhoneIcon />
             {/* {`${views.toLocaleString()} blog views all time`} */}
-            The Safe House
-          </Link>
+            +254 742 092 240
+          </a>
         </div>
       </div>
-      <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
+      <div className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         {bio()}
-      </p>
+      </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
         <li>
           <a
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/yulluone"
+            href="mailto:muuoyullu@gmail.com"
           >
             <ArrowIcon />
-            <p className="h-7">follow me on twitter</p>
+            Send Me an Email
           </a>
         </li>
         {/* <li>
