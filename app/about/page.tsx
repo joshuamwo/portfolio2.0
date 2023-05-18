@@ -7,6 +7,7 @@ import {
   LinkedInIcon,
   PhoneIcon,
 } from "components/icons";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About",
@@ -24,14 +25,19 @@ export default function AboutPage() {
         <p>
           I'm currently a <b> Full Stack Dev </b> at <b>WeDance </b>
           where I'm working on a platform for dancers to connect, learn and
-          showcase their talent.
+          showcase their talent. You can view this project in the{" "}
+          <Link href="/work">Work-Section</Link>
         </p>
         <p>
           I also contribute to an <b>Open-Source</b> project called{" "}
           <b>Ignitus</b>. Ignitus is a Machine Learning Community built for
-          students by students. We are working on amazing ML projects including
-          an intuitive and AI powered E-Learning Platform. Check us out on
-          <a href="" className="text-green-700 no-underline">
+          Students and Researchers. We are working on amazing ML projects
+          including an intuitive and AI powered E-Learning Platform. Check us
+          out on
+          <a
+            href="https://github.com/Ignitus"
+            className="text-green-700 no-underline"
+          >
             {" "}
             <b>IgnitusGithubPage</b>{" "}
           </a>
@@ -61,8 +67,11 @@ export default function AboutPage() {
           create a safe space for people to talk about their mental health and
           seek help. We are also working on creating a platform where people can
           link with mental health professionals and find resources for self
-          help. We also have a podcast called <b>TheeSafeHouse KE</b> in which I
-          am <b>cohost</b>. Our aim is a mentally healthy society.
+          help. We also have a podcast called{" "}
+          <a href="https://open.spotify.com/show/4NtWu30NuKCmEVj49hw3TW?si=07fa1ca6b9cc41b3">
+            <b>Safe House_KE</b>
+          </a>{" "}
+          in which I am <b>cohost</b>. Our aim is a mentally healthy society.
         </p>
 
         <p>
@@ -83,6 +92,18 @@ export default function AboutPage() {
               <div className="ml-3">+254742092240</div>
             </div>
           </a>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="tel:+254742092240"
+            className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+          >
+            <div className="flex items-center">
+              <div className="">muuoyullu@gmail.com</div>
+              <ArrowIcon />
+            </div>
+          </a>
+
           <a
             rel="noopener noreferrer"
             target="_blank"
