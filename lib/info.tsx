@@ -9,19 +9,19 @@ export const about = () => {
         I'm a <b>Full-Stack Engineer</b> with experience in both{" "}
         <b>front-end & back-end</b> development. I specialize in developing{" "}
         <b>Web & Mobile</b> applications using modern web technologies such as{" "}
-        <b>ReactJS, Flutter, VueJs and NodeJs</b>
+        <b>React, Flutter, Vue and NodeJs</b>
       </h3>
       <br />
       <h2 className="text-3xl font-bold">Services</h2>
-
-      <p className="font-semibold">
-        <p> Custom Websites </p>
-        <p> UI/UX Design </p>
-        <p> Business Process Automation</p>
-        <p> Mobile App Development</p>
-        <p> E-commerce Solutions </p>
-        <p> Website Maintenance and Support</p>
-      </p>
+      <ul className="font-semibold">
+        <li> Custom Websites </li>
+        <li> UI/UX Design </li>
+        <li> Business Process Automation</li>
+        <li> Mobile App Development</li>
+        <li> E-Commerce Solutions </li>
+        <li> Application Maintenance and Support</li>
+        <li> Staff Technical Traning</li>
+      </ul>
     </>
   );
 };
